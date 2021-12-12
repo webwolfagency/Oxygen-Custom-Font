@@ -4,7 +4,7 @@
 Plugin Name: Oxygen Custom Fonts
 Plugin URI: https://webwolf.dev/
 Description: Add fonts to oxygen builder and host it locally.
-Version: 1.0
+Version: 1.0.1
 Author: Web Wolf [Kamil Łazarz]
 Author URI: https://webwolf.dev/
 License: MIT
@@ -33,7 +33,7 @@ final class OCF {
     }
 
     public function addFontFace() {
-        wp_enqueue_style( 'oxygen-custom-fonts', $this-$this->plugin_url . '/fonts.css' );
+        wp_enqueue_style( 'oxygen-custom-fonts', $this->plugin_url . '/fonts.css' );
     }
 
 }
